@@ -13,19 +13,18 @@
       crossorigin="anonymous"
     />
 <!-- Adding a link to our stylesheet -->
-    <link rel="stylesheet" href="statc/css/style.css">
+    <link rel="stylesheet" href="static/css/style.css">
 </head>
-
 <!-- Setting up the HTML body -->
-<body>
+<body class="bg-dark"> <!-- Setting up 'body' CSS-->
     <div class="wrapper">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg"> <!-- Setting up navbar CSS along with 'expand' dynamic and 'lg' size-->
             <a class="navbar-brand" href="index.html">UFO Sightings</a>
         </nav>
     </div>
 <!-- Creating a JumboTron -->
     <div class="jumbotron"> 
-        <h1>The Truth Is Out There</h1>
+        <h1 class="display-4">The Truth Is Out There</h1>
     </div>
 <!-- Creating a container with our title using 4 columns and paragraph in 6 columns-->
     <div class="container-fluid">
@@ -46,21 +45,21 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-3">
-                <form>
+                <form class="bg-dark">
                     <p>Filter Search
                     </p>
                     <!-- Creating an unordered list -->
-                    <ul class="list-group">
+                    <ul class="bg-dark list-group">
                     </ul>
-                    <li class="list-group-item">
+                    <li class="bg-dark list-group-item">
                         <!-- label represets caption for the date item with "Enter Date" as the actual label -->
                         <label for="date">Enter Date</label>
                         <!-- Creating an input box, look for "text" for type, placeholder is an example of a date to search, id="datetime" will tell javaScript to look for and what function is excuted when the button is pressed -->
                         <input type="text" placeholder="1/10/2010" id="datetime" />
                     </li>
-                    <li class="list-group-item">
+                    <li class="bg-dark list-group-item">
                     <!-- type="button" will tells browser, by default button does nothing, "class=btn btn-default" attribute adds Bootstrap styling, button is named "Filter Table"-->
-                        <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
+                        <button id="filter-btn" type="button" class="btn btn-dark">Filter Table</button>
                     </li>
                 </form>
             </div>
@@ -80,10 +79,17 @@
                     <tbody></tbody>
                 </table>
             </div>
+
         </div>
+
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>  
+    <script src="static/js/data.js"></script>
+    <script src="static/js/app.js"></script>
 </body>
+
 </html>
+
     
 
 

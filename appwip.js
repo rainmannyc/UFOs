@@ -7,7 +7,7 @@ var tbody = d3.select("tbody");
 
 function buildTable(data) {
  tbody.html("");   //clear out existing table data
-}
+};
 
 data.forEach((dataRow) => { //loop through each object in the data into "dataRow"
     let row = tbody.append("tr"); // declaring row variable = append the "tr"(table row/value) in tbody
