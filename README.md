@@ -1,31 +1,30 @@
-# UFO README
 
 # UFO Sightings
 
 ## Overview
 
-The aim for this project was to create a webpage and dynamic table which includes data from UFO sightings. Using the webpage, our goal is to provide in-depth analysis on UFO sightings by adding addtional filters to filter the dynamic table at the same time. 
+The aim for this project was to create a webpage and dynamic table which includes data from UFO sightings. Using the webpage, our goal is to provide in-depth analysis on UFO sightings by adding additional filters to filter the dynamic table at the same time. 
 
 ## The Webpage
 
 Our webpage features a simple yet useful analysis tool. The dynamic table located on the page will allow users to filter the data by specific search parameters.
 
-<img>
+![ufo_a](https://github.com/rainmannyc/UFOs/blob/e34165c42d1baa609105bf767c5b31c01aabf126/ufo_filtering_a.png)
 
 By entering the Date, City, State, Country, or Shape, the user can narrow down their search by entering input into the specified parameters. For example, we can filter our dynamic table simply by entering the search word "ny" into the search input field. 
 
-<img>
+![ufo_b](https://github.com/rainmannyc/UFOs/blob/e34165c42d1baa609105bf767c5b31c01aabf126/ufo_filtering_b.png)
 
-As soon as our webpage has detected a change in the search bxo, it will automatically update the table according to the fields specified by the user. The user can further narrow down their search by entering input into multiple fields at the same time as shown below:
+As soon as our webpage has detected a change in the search box, it will automatically update the table according to the fields specified by the user. The user can further narrow down their search by entering input into multiple fields at the same time as shown below:
 
-<img>
+![ufo_c](https://github.com/rainmannyc/UFOs/blob/e34165c42d1baa609105bf767c5b31c01aabf126/ufo_filtering_c.png)
 
 As you can see by doing so, our dynamic table search has now been narrowed down from UFO sightings for the whole country to specifically searching UFO sightings in the state of "ny" on the date of "1/9/2010". 
 
 
 ## Drawbacks & Developments
 
-
+<br>
 
 I believe the current design does have a couple of flaws. For one, it is possible a user might want to search for 2 states at the same time. And unfortunately with the way the search box is currently set up, they would be unable to do so. A way we can further develop our webpage for drawbacks as such would be to add a menu which scrolls through the field and allow the user to highlight multiple selections at once. 
 
