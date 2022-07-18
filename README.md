@@ -9,7 +9,7 @@ The aim for this project was to create a webpage and dynamic table which include
 
 Our webpage features a simple yet useful analysis tool. The dynamic table located on the page will allow users to filter the data by specific search parameters.
 
-![ufo_a](https://github.com/rainmannyc/UFOs/blob/e34165c42d1baa609105bf767c5b31c01aabf126/ufo_filtering_a.png)
+![ufo_a](https://github.com/rainmannyc/UFOs/blob/main/readme_images/ufo_filtering_a.png)
 
 By entering the Date, City, State, Country, or Shape, the user can narrow down their search by entering input into the specified parameters. For example, we can filter our dynamic table simply by entering the search word "ny" into the search input field. 
 
