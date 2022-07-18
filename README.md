@@ -13,11 +13,11 @@ Our webpage features a simple yet useful analysis tool. The dynamic table locate
 
 By entering the Date, City, State, Country, or Shape, the user can narrow down their search by entering input into the specified parameters. For example, we can filter our dynamic table simply by entering the search word "ny" into the search input field. 
 
-![ufo_b](https://github.com/rainmannyc/UFOs/blob/e34165c42d1baa609105bf767c5b31c01aabf126/ufo_filtering_b.png)
+![ufo_b](https://github.com/rainmannyc/UFOs/blob/main/readme_images/ufo_filtering_b.png)
 
 As soon as our webpage has detected a change in the search box, it will automatically update the table according to the fields specified by the user. The user can further narrow down their search by entering input into multiple fields at the same time as shown below:
 
-![ufo_c](https://github.com/rainmannyc/UFOs/blob/e34165c42d1baa609105bf767c5b31c01aabf126/ufo_filtering_c.png)
+![ufo_c](https://github.com/rainmannyc/UFOs/blob/main/readme_images/ufo_filtering_c.png)
 
 As you can see by doing so, our dynamic table search has now been narrowed down from UFO sightings for the whole country to specifically searching UFO sightings in the state of "ny" on the date of "1/9/2010". 
 
